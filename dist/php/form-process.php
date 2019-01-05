@@ -37,8 +37,8 @@ $Body .= "Thank you for contacting us, we will answer within 24 hours.\nBelow is
 // Allow using HTML in sending mail.
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-$headers .= "From: $from_email\n";
-$headers .= "Reply-To: $from_email";
+$headers .= "From: $email\n";
+$headers .= "Reply-To: $email";
 
 $success = mail($EmailTo, $Subject, $Body, $headers); // Send email.
 $sender = mail($email, $Subject, $Body, $headers);

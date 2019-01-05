@@ -207,12 +207,12 @@ function initMap() {
   // var uluru = [[lat: 51.0380026, lng: 17.3334617], [lat: 52.2432409, lng: 6.8519193]];
   var locations = [
       ['Financial office', 51.0380026, 17.3334617],
-      ['Operational office', 52.2432409, 6.8519193]
+      ['Operational office', 52.3420478, 4.8457738]
     ];
   // var uluru2 = {lat: 52.2432409, lng: 6.8519193};
   var map = new google.maps.Map(document.getElementById('google-maps'), {
     zoom: 15,
-    center: new google.maps.LatLng(52.2432409, 6.8519193)
+    center: new google.maps.LatLng(52.3420478, 4.8457738)
   });
   for (i = 0; i < locations.length; i++) {
       marker = new google.maps.Marker({
